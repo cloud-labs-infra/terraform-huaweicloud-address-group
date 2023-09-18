@@ -5,12 +5,13 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.4 |
+| <a name="requirement_huaweicloud"></a> [huaweicloud](#requirement\_huaweicloud) | ~>1.47 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_huaweicloud"></a> [huaweicloud](#provider\_huaweicloud) | n/a |
+| <a name="provider_huaweicloud"></a> [huaweicloud](#provider\_huaweicloud) | ~>1.47 |
 
 ## Modules
 
@@ -20,7 +21,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [huaweicloud_vpc_address_group.main](https://registry.terraform.io/providers/hashicorp/huaweicloud/latest/docs/resources/vpc_address_group) | resource |
+| [huaweicloud_vpc_address_group.main](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/vpc_address_group) | resource |
 
 ## Inputs
 
