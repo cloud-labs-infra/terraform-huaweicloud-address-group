@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.2](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/compare/v1.0.1...v1.0.2) (2023-09-18)
+
+
+### Bug Fixes
+
+* Remove unsupported arguments ([#5](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/issues/5)) ([d7332c7](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/commit/d7332c7bfcccb0683950cb63726e01a189485beb))
+
 ### [1.0.1](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/compare/v1.0.0...v1.0.1) (2023-09-18)
 
 
