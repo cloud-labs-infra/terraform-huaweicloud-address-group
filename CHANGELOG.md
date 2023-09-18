@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/compare/v1.0.2...v1.1.0) (2023-09-18)
+
+
+### Features
+
+* Remove timeout configuration ([#6](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/issues/6)) ([563dc0a](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/commit/563dc0ad0c70fe29bb0ecb7f5d0cf178299f49ec))
+
 ### [1.0.2](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/compare/v1.0.1...v1.0.2) (2023-09-18)
 
 
