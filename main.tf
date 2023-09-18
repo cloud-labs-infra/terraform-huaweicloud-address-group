@@ -7,8 +7,8 @@ resource "huaweicloud_vpc_address_group" "main" {
   region     = var.region
   ip_version = var.ip_version
 
-  addresses     = var.addresses
-  description   = var.description
+  addresses   = var.addresses
+  description = var.description
 
   timeouts {
     create = var.timeouts.create
