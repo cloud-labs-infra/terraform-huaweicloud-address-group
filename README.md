@@ -33,7 +33,6 @@ No modules.
 | <a name="input_name"></a> [name](#input\_name) | Specifies a name for the Address Group | `string` | n/a | yes |
 | <a name="input_name_postfix"></a> [name\_postfix](#input\_name\_postfix) | Specifies a postfix for the Address Group | `string` | `null` | no |
 | <a name="input_region"></a> [region](#input\_region) | Specifies the region in which to create the resource, if omitted, the provider-level region will be used | `string` | `null` | no |
-| <a name="input_timeouts"></a> [timeouts](#input\_timeouts) | Address group timeouts configuration in minutes | <pre>object({<br>    create = optional(number, 5)<br>    update = optional(number, 5)<br>    delete = optional(number, 5)<br>  })</pre> | `{}` | no |
 
 ## Outputs
 
