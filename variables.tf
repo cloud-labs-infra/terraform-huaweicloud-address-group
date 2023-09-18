@@ -40,13 +40,3 @@ variable "description" {
   type        = string
   default     = null
 }
-
-variable "timeouts" {
-  description = "Address group timeouts configuration in minutes"
-  type = object({
-    create = optional(number, 5)
-    update = optional(number, 5)
-    delete = optional(number, 5)
-  })
-  default = {}
-}
