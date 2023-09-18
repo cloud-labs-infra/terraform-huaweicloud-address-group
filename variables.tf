@@ -41,25 +41,6 @@ variable "description" {
   default     = null
 }
 
-variable "max_capacity" {
-  description = "Specifies the maximum number of addresses that an address group can contain"
-  type        = number
-  default     = 20
-  validation {
-    condition     = var.max_capacity >= 1 && var.max_capacity <= 20
-    error_message = "Value range: 1-20"
-  }
-}
-
-variable "force_destroy" {
-  description = <<DES
-  Specifies whether to forcibly destroy the address group if it is associated with a security group rule,the address
-  group and the associated security group rule will be deleted together
-  DES
-  type        = bool
-  default     = false
-}
-
 variable "timeouts" {
   description = "Address group timeouts configuration in minutes"
   type = object({
