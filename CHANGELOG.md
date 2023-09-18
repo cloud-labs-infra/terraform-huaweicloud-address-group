@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.1](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/compare/v1.0.0...v1.0.1) (2023-09-18)
+
+
+### Bug Fixes
+
+* Fix condition of var ip_version validation ([#4](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/issues/4)) ([40338ea](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/commit/40338ea7e566c5f4831b1891994b128fc0b0b93b))
+
 ## 1.0.0 (2023-09-18)
 
 
