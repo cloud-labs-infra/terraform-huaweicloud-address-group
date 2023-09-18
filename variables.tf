@@ -30,7 +30,7 @@ variable "ip_version" {
   type        = string
   default     = "4"
   validation {
-    condition     = var.ip_version == "4" && var.ip_version == "6"
+    condition     = var.ip_version == "4" || var.ip_version == "6"
     error_message = "There are two versions of IP that currently coexist in the global Internet: 4(IPv4) and 6(IPv6)"
   }
 }
