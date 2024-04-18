@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/compare/v1.1.0...v1.2.0) (2024-04-18)
+
+
+### Features
+
+* Update version of tf and providers ([#9](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/issues/9)) ([59cf2da](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/commit/59cf2da2985be4e545b8daf00e38bb932410f2a2))
+
 ## [1.1.0](https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group/compare/v1.0.2...v1.1.0) (2023-09-18)
 
 
